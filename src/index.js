@@ -1,5 +1,7 @@
 import Template from './templates/Template.js';
-console.log('hola');
+import '@styles/main.css';
+import '@styles/var.styl';
+//console.log("proof of sync");
 
 (async function App() {
   const main = null || document.getElementById('main');
